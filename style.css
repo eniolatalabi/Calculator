@@ -17,7 +17,7 @@ main {
 
 .every {
   height: 32rem;
-  width: 25rem;
+  max-width: 25rem;
   background-color: #575757;
   display: flex;
   border-radius: 1.5rem;
@@ -101,5 +101,38 @@ input {
   font-size: 3rem;
   text-align: center;
 }
+
+
+
+ 
+
+@media only screen and (max-width : 600px) {
+  
+  .every {
+    width: 20rem;
+  }
+  
+  .screen {
+    width: 18rem;
+  }
+}
+  @media only screen and (max-width : 370px) {
+  
+    .every {
+      width: 15rem;
+      height: 25rem;
+    }
+  
+    .screen {
+      width: 13rem;
+      height: 3rem;
+    }
+
+    .buttons {
+      height: 18rem;
+      margin-top: 1rem;
+    }
+  
+} 
 
 
